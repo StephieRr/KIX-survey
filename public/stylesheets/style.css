@@ -1,0 +1,51 @@
+.hide {
+  display: none;
+}
+
+.dot {
+  position: absolute;
+  height: 0;
+  width: 0;
+  background: #F06669;
+  border: 15px solid #F06669;
+  border-radius: 100px;
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+#selection-container {
+  position: relative;
+}
+
+#selection-area-padding {
+  margin-top: 32px;
+  margin-right: 44px;
+  margin-left: 35px;
+  position: absolute;
+  top: 0px;
+}
+
+#selection-area {
+  width: 500px;
+  height: 500px;
+  /*border-style: groove;*/
+  position: relative;
+}
+
+#user-list {
+  max-height: 420px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#img {
+  touch-action: none;
+  pointer-events: none;
+}
